@@ -1,0 +1,330 @@
+.shelterForm{
+    display:grid;
+    grid-template-columns: auto auto ;
+    column-gap: 20px;
+    gap:2;
+    width: 60rem;
+    background-color: snow;
+}
+.shelterFormDiv{
+    margin: 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.shelterLabel {
+    margin-bottom: 1rem;
+    font-size:20px;
+    font-weight: 700;
+}
+
+.shelterInput{
+    width: 20rem;
+
+    height: 2rem;
+}
+.shelterForm-Button{
+
+}
+.shelterForm-Button button{
+    width: 10rem;;
+    height: 3.5rem;
+    font-size: 1.5rem;
+    background-color: blue;
+    font-weight: 900;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    color: white;
+}
+
+.gradient-background {
+    background: linear-gradient(166deg,#0000ff);
+    background-size: 60% 60%;
+    animation: gradient-animation 4s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+/*<showShelter2>*/
+.ShowShelter-section {
+    background-color: rgba(0,0,0,0.1);
+    height: auto;
+}
+.ShowShelter-section .ShowShelter-section1{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+.ShowShelter-sectionleft{
+    width: 50rem;
+    background-color: snow;
+    height: 80rem;
+
+    margin-left: 10rem;
+    margin-top: 1rem;
+
+
+}
+.ShowShelter-sectionleft h1{
+    margin-left: 1rem;
+}
+.ShowShelter-sectionleft .ShowShelter-img{
+    width:40rem;
+    height: 20rem;
+    margin-top: 2rem;
+    margin-left: 5rem;
+    box-shadow:10px 10px 10px 15px rgba(0,0,0,0.1);
+}
+.ShowShelter-detail h1{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+}
+.ShowShelter-detail span{
+    display: flex; 
+    justify-content: center;
+}
+.ShowShelter-detail .shelter-about{
+    width: 40rem;
+    height: 20rem; 
+    margin-left: 5rem;   
+    background: rgba(0,0,0,0.1);
+}
+.ShowShelter-sectionright{
+    margin-top: 1rem;
+    width: 30rem;
+    height: 50rem;
+    background-color: white;
+    box-shadow:10px 10px 10px 15px rgba(0,0,0,0.3);
+    
+}
+.ShowShelter-sectionright h1{
+    background: green;
+    color: white;
+    padding-left: 4rem;
+    height: 3rem;
+
+}
+
+.ShowShelter-sectionright .patient-detail1{
+    margin-top: 2rem;
+}
+.ShowShelter-sectionright .patient-detail1  .patient-detail2 span{
+    font-size: 1.2rem;
+
+
+    margin-top: 2rem;
+}
+.ShowShelter-sectionright .patient-detail1  .patient-detail2 input{
+    width:25rem;
+    height: 1.4rem;
+    margin-left: 2rem;
+    font-size: 1.2rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: silver;
+    outline: none;
+}
+
+
+.ShowShelter-sectionright .patient-detail2{
+    margin-top: 1rem;
+}
+
+.ShowShelter-sectionright .patient-button {
+    margin-left: 4rem;
+    margin-top: 1rem;
+}
+.ShowShelter-sectionright  .patient-button button{
+    width: 22rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
+    background-color: blue;
+    border-radius: 1rem;
+
+}
+
+.patient-head {
+    background-color: green;
+    width: 30rem;
+    height: 3.5rem;
+    margin-top: -1rem;
+}.patient-head  h1{
+    color: white;
+    text-align: center;
+}
+.patient-head input{
+    opacity: 0;
+}
+.ShowPet-sectionright .patient-detail1{
+    margin-top: 2rem;
+}
+.ShowPet-sectionright .patient-detail1  .patient-detail2 span{
+    font-size: 1.2rem;
+
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.ShowPet-sectionright .patient-detail1  .patient-detail2 input{
+    width:25rem;
+    height: 1.4rem;
+    margin-left: 2rem;
+    font-size: 1.2rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: silver;
+    outline: none;
+}
+.ShowPet-sectionright .patient-detail2{
+    margin-top: 1rem;
+}
+.ShowPet-sectionright .patient-detail1  .patient-detail2 textarea{
+    margin-left: 2rem;
+    width: 25rem;
+    height: 5rem;
+}
+.ShowPet-sectionright  .patient-button {
+    margin-left: 4rem;
+    margin-top: 1rem;
+}
+.ShowPet-sectionright  .patient-button button{
+    width: 22rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
+    background-color: blue;
+    border-radius: 1rem;
+
+}
+
+.patient-head {
+    background-color: green;
+    width: 30rem;
+    height: 3.5rem;
+    margin-top: -1rem;
+}.patient-head  h1{
+    color: white;
+    text-align: center;
+}
+.patient-head input{
+    opacity: 0;
+}
+
+/*<showShelter2>*/
+
+/*<NGO>*/
+
+.Dnav{
+    width: 98.8vw;
+    height:5rem;
+    background: linear-gradient(120deg,white,lightblue);
+
+}
+.D-logo{
+    padding-top: 1rem;
+}
+.nav-login-page {
+    float: right;
+    padding-right: 4rem;
+}
+.nav-login-page  li{
+    list-style: none;
+    font-size: 1.5rem;
+    display: flex;
+    margin-top: -2.5rem;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    width: 10rem;
+    height: 2rem;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    color: black;
+
+
+
+}
+.nav-login-page  a{
+    text-decoration: none;
+}
+
+.Dnav span{
+
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+.Dnav .dnav-list ul{
+    display: flex;
+    margin-left: 7rem;
+    margin-top: -2.8rem;
+}
+.Dnav .dnav-list li{
+    list-style: none;
+    float: left;
+    font-size: 1.5rem;
+    margin-left: 5rem;
+}
+.Dnav .dnav-list li:hover{
+    border-top: 3px solid green;
+
+
+
+}
+.card{
+    width: 80%;
+    display: flex;
+    border: 1px solid gray;
+    box-shadow:2px 3px rgb(116, 116, 116);
+    margin:10%;
+    padding: 10px;
+    justify-content: space-between;
+
+}
+.bnt{
+    background: #75b6de;
+    padding: 10px;
+    display: flex;
+    width: 100px;
+    border-radius: 10px;
+    border: 2px solid rgb(116, 116, 116);
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    justify-content: center;
+    margin-left: 55px;
+}
+.card-img{
+    width:250px;
+}
+
+
+/*showShelter*/
+.ShowShelter{
+    width:60rem;
+    height:40rem;
+    background:#75b6de;
+}
+.form{
+    width:60rem;
+    height:40rem;
+
+}
+span{
+    padding-left:2rem;
+    font-size:1.8rem;
+}
