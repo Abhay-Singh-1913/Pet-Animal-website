@@ -1,0 +1,717 @@
+/*Main page Doctor*/
+
+.Dnav{
+    width: 98.8vw;
+    height:5rem;
+    background: linear-gradient(120deg,white,lightblue);
+
+}
+.D-logo{
+    padding-top: 1rem;
+}
+
+.logout-pageD .Sessions-email{
+
+}
+
+.nav-login-page {
+    float: right;
+    padding-right: 4rem;
+}
+.nav-login-page  li{
+    list-style: none;
+    font-size: 1.5rem;
+    display: flex;
+    margin-top: -2.5rem;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    width: 10rem;
+    height: 2rem;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    color: black;
+}
+.nav-login-page  a{
+    text-decoration: none;
+}
+.nav-login-page h3{
+    display: flex;
+    font-size: 1.2rem;
+    margin-top: -3.5rem;
+}
+
+
+.Dnav span{
+
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+.Dnav .dnav-list ul{
+    display: flex;
+    margin-left: 7rem;
+    margin-top: -2.8rem;
+}
+.Dnav .dnav-list li{
+    list-style: none;
+    float: left;
+    font-size: 1.5rem;
+    margin-left: 5rem;
+}
+.Dnav .dnav-list li:hover{
+    border-top: 3px solid green;
+
+
+
+}
+.Dmid {
+    width: 100%;
+    height: 30rem;
+
+
+
+}
+.Dmid1{
+
+    z-index: -1;
+    width: 44rem;
+    height: 34.5rem;
+    float: right;
+    margin-left: -3rem;
+}
+.Dmid2{
+    margin-top: 5rem;
+
+}
+.Dmid2 input{
+    margin-top: 1rem;
+    width: 25rem;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    font-family:Garamond, serif;
+    outline: none;      
+}
+
+.Dsearch-button{
+    position: absolute;
+    margin-left: 30rem;
+    margin-top: 1rem;
+}
+.Dsearch-button button{
+    background-color: blue;
+    color: white;
+    font-size: 1rem;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 1rem;
+    font-weight: 700;
+
+}
+/*DoctorADD*/
+
+/*ShowDoctor*/
+.ShowDoctors2{
+
+    width:100vw
+        height: auto;
+    background-color:lightblue;
+    box-shadow: 15px 15px 20px rgba(0,0,0,0.1);
+    margin-top: 1rem;
+
+
+}
+.S-Doctor1{
+    width:60rem;
+    height: 15rem;
+    background-color:snow;
+    box-shadow: 15px 15px 20px rgba(0,0,0,0.1);
+    margin-left: 15rem;
+    margin-top: 1rem;
+    display:grid;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    border-bottom-color: red;
+}
+.S-Doctor1 img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 10rem;
+    display: flex;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    background-color: black;
+}
+.S-Doctor2 span{
+    display: flex;
+    margin-top: -13rem;
+    margin-left: 14rem;
+    font-size: 2.5rem;
+
+}
+.S-Doctor3{
+    margin-left: 14rem;
+    margin-top: -11rem;
+}
+.S-Doctor3 span{
+    display: flex;
+    margin-top: 0.5rem;
+}
+.S-Doctor4  a{
+    text-decoration: none;
+    color: white;
+
+
+}
+.S-Doctor4 a span {
+    background-color: blue;
+    display: flex;
+    width: 10rem;
+    height: 3rem;
+    margin-left: 43rem;
+    align-items: center;
+    padding-left: 3rem;
+    margin-top: -6.5rem;
+}
+
+
+.ShowDoctors2 .ShowDoctor-right{
+
+    margin-top: 1rem;
+    width: 27rem;
+    height: 30rem;
+    background-color: snow;
+    border-radius: 2rem;
+    box-shadow: 15px 15px 20px rgba(0,0,0,0.2);
+
+}
+/*<ShowDoctor2-page>*/
+.ShowPet-section .ShowPet-section1{
+    margin-top: 0.5rem;
+    width: 98.8vw;
+    height:50rem;
+    background-color: lightblue;
+
+    display: flex;
+    justify-content: space-around;
+}
+.ShowPet-section .ShowPet-section1 .ShowPet-sectionleft{
+    width: 60rem;
+    height: 50rem;;
+    background-color: whitesmoke;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.2);
+    margin-top: 1rem;
+
+}
+
+.ShowPet-sectionleft-mid{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20rem;
+
+}
+.ShowPet-sectionleft-mid .ShowPet-sectionleft-mid1 a{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    background-color: white;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.1);
+    text-decoration: none;
+    align-items: center;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.ShowPet-sectionleft-mid2{
+    width: 55rem;
+    height: 25rem;
+    background-color: white;
+    margin-top:  3rem;
+    position: absolute;
+
+    box-shadow: 10px 10px 10px 15px rgba(0,0,0,0.1);
+
+}
+
+
+
+.ShowPet-section .ShowPet-section1 .ShowPet-sectionright{
+
+    margin-top: 1rem;
+    width: 30rem;
+    height: 45rem;
+    background-color: white;
+    box-shadow:10px 10px 10px 15px rgba(0,0,0,0.3);
+}
+.Doctor-slot1 .Doctor-slot11{
+    width: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50,-50);
+    background-color: red;
+    position: absolute;
+
+}
+
+.ShowPet-sectionright .patient-detail1{
+    margin-top: 2rem;
+}
+.ShowPet-sectionright .patient-detail1  .patient-detail2 span{
+    font-size: 1.2rem;
+
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.ShowPet-sectionright .patient-detail1  .patient-detail2 input{
+    width:25rem;
+    height: 1.4rem;
+    margin-left: 2rem;
+    font-size: 1.2rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: silver;
+    outline: none;
+}
+.ShowPet-sectionright .patient-detail2{
+    margin-top: 1rem;
+}
+.ShowPet-sectionright .patient-detail1  .patient-detail2 textarea{
+    margin-left: 2rem;
+    width: 25rem;
+    height: 5rem;
+}
+.ShowPet-sectionright  .patient-button {
+    margin-left: 4rem;
+    margin-top: 1rem;
+}
+.ShowPet-sectionright  .patient-button button{
+    width: 22rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
+    background-color: blue;
+    border-radius: 1rem;
+
+}
+
+.patient-head {
+    background-color: green;
+    width: 30rem;
+    height: 3.5rem;
+    margin-top: -1rem;
+}.patient-head  h1{
+    color: white;
+    text-align: center;
+}
+.patient-head input{
+    opacity: 0;
+}
+/*<ShowDoctor2-page>*/
+
+/*DoctorADD*/
+.D-form1{
+    width: 66rem;
+    height: auto;
+    background-color: lightgrey;
+}
+.card-body{
+    width: 66rem;
+    height: 44rem ;
+    background-color: white;
+    box-sizing: border-box;
+
+}
+.card{
+    margin-top: 1rem;
+}
+.card-body h2 {
+    display: flex;
+    margin-left: 1rem;
+    padding-top: 2rem;
+}
+.change-avatar .profile-img img{
+    width: 6rem;
+    height: 6.8rem;
+    margin-left: 1rem;
+    border: 1px solid silver;
+
+}
+.upload-img .change-photo-btn{
+    display: flex;
+    margin-left:8rem;
+    margin-top: -6rem;
+}
+.upload-img small{
+    display: flex;
+    margin-left: 8rem;
+    padding-top: 0.5rem;
+    padding-bottom: 3rem;
+}
+.upload-img  span{
+    width: 10rem;
+    height: 2rem;
+    background-color: lightskyblue;
+    border-radius: 2rem;
+    text-align: center;
+    padding-top: 0.9rem;
+    color: white;
+
+}
+
+.upload-img input{
+    position: absolute;
+
+    margin-right: -5rem;
+    width: 10rem;
+    height: 2rem;
+    opacity: 0;
+
+}
+
+
+
+.col-md-6-h1 .col-md-6-h{
+
+    float: left;
+    width: 50%;
+
+}
+.col-md-6-h1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.col-md-6{
+    display: flex;
+    margin-top: 5rem;
+    margin-left: 1rem;
+
+}
+.col-md-6 label{
+    font-size: 1.5rem;
+    display: flex;
+    margin-top: -3rem;
+    margin-left: 2rem;
+}
+.col-md-6 input{
+    width:27rem;
+    height: 3rem;
+    margin-left: 2rem;
+    font-size: 1.2rem;
+}
+.col-md-6 .form-group span{
+    color: red;
+}
+.row form-row{
+    display: flex;
+}
+.col-md-6{
+    float: left;
+}
+.form-group1 textarea {
+    width: 57rem;
+    margin-left: 1rem;
+    height: 10rem;
+    font-size: 1.2rem;
+
+}
+.form-group1  label{
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+.col-md-12-h{
+    padding-top: 2rem;
+
+}
+.col-md-12-h  .col-md-12{
+    padding-top: 3rem;
+    float: left;
+    margin-left: 6rem;
+}
+.card-body-1{
+    width: 66rem;
+    height: 28rem;
+    background-color: white;
+}
+.card-body-1 h2{
+
+    margin-left: 1rem;
+    padding-top: 2rem;
+
+}
+.form-group mb-1 .pricing_select{
+    float: left;
+}
+.card-body .add-more a{
+    float: right;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    text-decoration: none;
+
+    color: blue;
+    font-weight: 700;
+
+    font-size: 1rem;
+
+}
+.submit-section-submit-btn-bottom button{
+    width: 10rem;
+    height: 3rem;
+    color: white;
+    font-weight: 700;
+    background-color: blue;
+    border-radius: 2rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
+.remove_field i{
+    font-size: 1.5rem;
+    color: black;
+    display: flex;
+    float: right;
+    margin-top: 4.5rem;
+    margin-right: 2rem;
+
+
+}
+
+/*DoctorADD*/
+
+/*Doctor-dashboard*/
+
+.Dnav .nav-login-page{
+    margin-top: -3rem;
+}
+.Dnav .nav-login-page .nav-login-page1 span{
+    display: flex;
+    margin-left: -20rem;
+    font-size: 2.5rem;
+    color: lightslategrey;
+    font-weight: 800;
+}
+.dash-cardboard{
+    margin-top: 1rem;
+    width: 25rem;
+    height: 48rem;
+    background-color: white;
+    box-shadow:  10px 10px 15px 10px rgba(0,0,0,0.1);
+
+}
+.dash-cardboard .dash-img img{
+    display: flex;
+    width: 9rem;
+    height: 9rem;
+    border-radius: 9rem;
+    box-shadow: 10px 10px 15px 10px rgba(0,0,0,0.1);
+    margin-left: 7rem;
+    position: absolute;
+    margin-top: 1rem;
+}
+.dash-cardboard .dash-dr-name {
+    position: absolute;
+    margin-top: 11rem;
+    margin-left: 9rem;
+}
+.dash-cardboard .dash-dr-name span{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.Dnav .dnav-list li a{
+    text-decoration: none;
+    color:black;
+}
+.dash-list1{
+    position: absolute;
+    margin-top: 14rem;
+
+}
+.dash-list1 li i{
+    font-size: 1.3rem;
+    color: black;
+    padding: 2px;
+
+}
+
+.dash-list1 li {
+    display: flex;
+    width: 19.5rem;
+    height: 2.4rem;
+    padding-left: 5rem;
+    padding-top:0.5rem;
+    margin-left: -2rem;
+    list-style: none;
+    border-top: 0.1px solid silver;
+
+
+
+
+}
+.dash-list1 li a{
+
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+
+}
+.dash-list1 li:hover{
+    background: rgba(173, 216, 230,0.5);
+}
+.dash-right1{
+    width: 66rem;
+    height: auto;
+    background-color: white;
+    display: flex;
+    position: absolute;
+    margin-left:27rem;
+    box-shadow: 10px 10px 15px 10px rgba(0,0,0,0.2);
+
+}
+.appoinment{
+    width: 64rem;
+    height: 10rem;
+
+    margin-left: 1rem;
+    box-shadow: 10px 10px 15px 10px rgba(0,0,0,0.2);
+    margin-top: 2rem;
+    background: snow;
+}
+.appoinment .appoinment-detail{
+    display:grid;
+    grid-template-columns: auto auto auto auto auto auto ;
+
+}
+.appoinment .appoinment-detail  .appoinment-detail2 img{
+width: 10rem;
+height: 5rem;
+display: flex;
+    justify-content: center;
+}
+.appoinment .appoinment-detail  .appoinment-detail2 h2{
+    display: flex;
+    justify-content: center;
+}
+
+
+.appoinment .appoinment-detail  .appoinment-detail2 button{
+  margin-top: 5rem;
+  width: 5rem;
+  height: 1.5rem;
+  
+}
+
+
+
+/*<Login page>*/
+
+.center{
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    background-color: white;
+    border-radius:10px;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.05);
+}
+.center h2{
+    text-align: center;
+    padding-bottom: 1rem;
+
+    border-bottom:1px solid silver;
+}
+.center h2 input{
+    width: 7rem;
+    border: none;
+    font-size: 1.5rem ;
+    font-weight: 700;
+}
+.center form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+form .login-label{
+    display: flex;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+
+}
+.login-label input{
+    width: 100%;
+    padding:0 5px;
+    height: 40px;
+    font-size: 16px;
+    background: none;
+    border: none;
+    outline: none;
+
+}
+.login-label label{
+    position: absolute;
+    top: 50%
+        left: 5px;
+    color:black;
+    transform:translateY(-50%);
+    font-size:16px;
+    pointer-events:none;
+    transition:.5s;
+
+}
+
+
+
+.pass{
+    margin: -5px 0 20px 5px;
+    color: #a6a6a6;
+    cursor: pointer;
+}
+.pass:hover{
+    text-decoration: underline;
+}
+/*<login page button>*/
+.login-btn button{
+    width:100%;
+    height: 50px;
+    border: 1px solid;
+    background:#2691d9;
+    border-radius: 25px;
+    font-size: 18px;
+    color: #e9f4fb;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+}
+
+.signup_link{
+    margin: 30px 0;
+    text-align: center;
+    font-size: 16px;
+    color: #666666;
+}
+.signup_link a{
+    color: #2691d9;
+    text-decoration: none;
+}
+.signup_link a:hover{
+    text-decoration: underline;
+}
+.login-page .Are-Doctor{
+    padding-top: 2rem;
+    padding-right: 1rem;
+    text-align:right;
+    font-size: 20px;
+    color: #666666;
+}
+.login-page .Are-Doctor a{
+    color: #2691d9;
+    text-decoration: none;
+}
+.login-page .Are-Doctor a:hover{
+    text-decoration: underline;
+}
+/*<Time slot>*/
